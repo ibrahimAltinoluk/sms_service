@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_id">1480627645510722</string>
+    <string name="app_name">Sms Service</string>
+    <string name="sync">Sync</string>
+    <string name="hello_world">Merhaba dünya!</string>
+    <!-- REGISTRATION VARS -->
+    <string name="sender_id">532569688879</string>
+    <string name="cloud">http://www.ibrahimaltinoluk.com/web/sms_service/index.php</string>
+
+</resources>

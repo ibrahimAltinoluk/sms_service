@@ -1,0 +1,85 @@
+
+body {
+    min-width: 357px;
+    overflow-x: hidden;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    font-size: 15px;
+    color: #494949;
+    padding: 10px;
+}
+
+input[type=text], textarea {
+    width: 95%;
+    padding: 5px;
+    border: solid 1px #efefef;
+}
+
+textarea {
+    height: 100px;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+#fblogin {
+    font-size: 30px;
+}
+
+#to_list div span {
+    color: red;
+    font-weight: bold;
+}
+
+#search_result div span {
+    display: none;
+}
+
+#search_result div, #to_list div {
+    border-bottom: 1px solid #f8f8f8;
+    padding: 6px;
+    cursor: pointer;
+
+}
+
+#search_result div:hover, #to_list div:hover {
+    background: #d1e8ff;
+    color: #234299;
+
+}
+
+#home {
+    display: none;
+}
+
+.banner {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+#logout {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+#devices {
+    margin: 20px
+}
+
+#search_result div, #to_list div {
+    padding-left: 20px;
+    position: relative
+}
+
+#search_result div .icon-remove, #to_list div .icon-remove {
+    position: absolute;
+    left: 2px;
+    top: 8px;
+}
+
+.login_required {
+    display: none;
+}

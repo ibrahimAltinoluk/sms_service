@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <title>SMS Sender</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+<body>
+<a href="#"> </a>
+
+<center class=" banner">
+    <img src="img/fb.png">
+    <a target="_blank" id="fblogin"
+       href="https://www.facebook.com/dialog/oauth?client_id=1480627645510722&response_type=token&scope=email&redirect_uri=http://www.facebook.com/connect/login_success.html">
+        <b>Giriş Yap</b>
+    </a>
+
+    <div class="login_required">
+        <select id="devices"></select>
+    </div>
+
+    <br>
+</center>
+<i id="logout" class="icon-ban-circle"></i>
+
+<div class="login_required">
+    <div id="to_list" class="alert-success"></div>
+    <input type="text" id="phone" value="" placeholder="Telefon Numarası">
+    <div id="search_result"></div>
+    <textarea id="message" placeholder="Mesaj Giriniz"></textarea>
+    <br>
+    <a id="confirm" class="btn btn-block btn-success">Gönder</a>
+</div>
+</body>
+
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+</html>
+
